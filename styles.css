@@ -169,3 +169,20 @@ img {
     margin-inline: 0;
   }
 }
+
+@media (min-width: 1300px) {
+  section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  article {
+    margin-inline: 0;
+  }
+
+  .middle {
+    flex-direction: column;
+    margin-inline: 0;
+  }
+}

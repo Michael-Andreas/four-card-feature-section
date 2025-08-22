@@ -97,6 +97,7 @@ section {
 
 article {
   padding: 28px 32px 32px 32px;
+  background-color: white;
   border-radius: .5rem;
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
   width: 100%;
@@ -148,6 +149,11 @@ img {
 
 @media (min-width: 48rem) {
 
+  main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
   h1 {
     font-size: 2.25rem;
   }
@@ -170,7 +176,13 @@ img {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 81.25rem) {
+
+  main {
+    padding-top: 102px;
+    padding-bottom: 163px;
+  }
+
   section {
     flex-direction: row;
     align-items: center;
@@ -179,6 +191,7 @@ img {
 
   article {
     margin-inline: 0;
+    max-width: 21.875rem;
   }
 
   .middle {
